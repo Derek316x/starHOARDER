@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>Art Assets/Derek_bar_1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2239, 2123}, {34, 538}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {34, 538}}</string>
+			<key>sourceSize</key>
+			<string>{34, 538}</string>
+		</dict>
+		<key>Art Assets/Lolly_01_256x256_Alt_02_002.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{3813, 1482}, {200, 256}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{28, 0}, {200, 256}}</string>
+			<key>sourceSize</key>
+			<string>{256, 256}</string>
+		</dict>
+		<key>Art Assets/Lolly_01_256x256_Alt_02_003.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{3813, 1886}, {200, 256}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{28, 0}, {200, 256}}</string>
+			<key>sourceSize</key>
+			<string>{256, 256}</string>
+		</dict>
+		<key>Art Assets/Lolly_01_256x256_Alt_02_004.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{3813, 876}, {200, 256}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{28, 0}, {200, 256}}</string>
+			<key>sourceSize</key>
+			<string>{256, 256}</string>
+		</dict>
+		<key>Art Assets/Lolly_01_256x256_Alt_02_005.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{3813, 1684}, {200, 256}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{28, 0}, {200, 256}}</string>
+			<key>sourceSize</key>
+			<string>{256, 256}</string>
+		</dict>
+		<key>Art Assets/Lolly_01_256x256_Alt_02_007.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{3813, 1078}, {200, 256}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{28, 0}, {200, 256}}</string>
+			<key>sourceSize</key>
+			<string>{256, 256}</string>
+		</dict>
+		<key>Art Assets/Pixel-Alien-1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1008, 2565}, {185, 185}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {185, 185}}</string>
+			<key>sourceSize</key>
+			<string>{185, 185}</string>
+		</dict>
+		<key>Art Assets/Pixel-Alien-10.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{3813, 2088}, {254, 185}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {254, 185}}</string>
+			<key>sourceSize</key>
+			<string>{254, 185}</string>
+		</dict>
+		<key>Art Assets/Pixel-Alien-11.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{3813, 2275}, {254, 185}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {254, 185}}</string>
+			<key>sourceSize</key>
+			<string>{254, 185}</string>
+		</dict>
+		<key>Art Assets/Pixel-Alien-12.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{821, 3424}, {185, 185}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {185, 185}}</string>
+			<key>sourceSize</key>
+			<string>{185, 185}</string>
+		</dict>
+		<key>Art Assets/Pixel-Alien-2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{431, 3729}, {208, 207}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {208, 207}}</string>
+			<key>sourceSize</key>
+			<string>{208, 207}</string>
+		</dict>
+		<key>Art Assets/Pixel-Alien-3.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{443, 2565}, {208, 161}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {208, 161}}</string>
+			<key>sourceSize</key>
+			<string>{208, 161}</string>
+		</dict>
+		<key>Art Assets/Pixel-Alien-4.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{257, 2565}, {162, 184}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {162, 184}}</string>
+			<key>sourceSize</key>
+			<string>{162, 184}</string>
+		</dict>
+		<key>Art Assets/Pixel-Alien-5.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{640, 3729}, {208, 184}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {208, 184}}</string>
+			<key>sourceSize</key>
+			<string>{208, 184}</string>
+		</dict>
+		<key>Art Assets/Pixel-Alien-6.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{431, 3939}, {208, 138}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {208, 138}}</string>
+			<key>sourceSize</key>
+			<string>{208, 138}</string>
+		</dict>
+		<key>Art Assets/Pixel-Alien-7.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{653, 2565}, {254, 138}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {254, 138}}</string>
+			<key>sourceSize</key>
+			<string>{254, 138}</string>
+		</dict>
+		<key>Art Assets/Pixel-Alien-8.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{245, 3729}, {231, 184}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {231, 184}}</string>
+			<key>sourceSize</key>
+			<string>{231, 184}</string>
+		</dict>
+		<key>Art Assets/Pixel-Alien-9.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 2565}, {254, 162}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {254, 162}}</string>
+			<key>sourceSize</key>
+			<string>{254, 162}</string>
+		</dict>
+		<key>Art Assets/Space-Horizon-hd.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1283}, {1920, 1280}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {1920, 1280}}</string>
+			<key>sourceSize</key>
+			<string>{1920, 1280}</string>
+		</dict>
+		<key>Art Assets/Space-Horizon-ip5.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1}, {2272, 1280}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {2272, 1280}}</string>
+			<key>sourceSize</key>
+			<string>{2272, 1280}</string>
+		</dict>
+		<key>Art Assets/Space-Horizon-ipadhd.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2275, 233}, {2048, 1536}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {2048, 1536}}</string>
+			<key>sourceSize</key>
+			<string>{2048, 1536}</string>
+		</dict>
+		<key>Art Assets/button_restart_1.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{3975, 381}, {63, 65}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {63, 65}}</string>
+			<key>sourceSize</key>
+			<string>{63, 65}</string>
+		</dict>
+		<key>Art Assets/character_retro-pixel-aliens_dd465ddf4682c86a207eb640f7e5ae46941f3357@4x.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1719, 2565}, {185, 185}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {185, 185}}</string>
+			<key>sourceSize</key>
+			<string>{185, 185}</string>
+		</dict>
+		<key>Art Assets/gameoverBIG.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 2733}, {994, 818}}</string>
+			<key>offset</key>
+			<string>{0, -1}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 2}, {994, 818}}</string>
+			<key>sourceSize</key>
+			<string>{994, 820}</string>
+		</dict>
+		<key>Art Assets/gameovercenter.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{826, 3611}, {497, 410}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {497, 410}}</string>
+			<key>sourceSize</key>
+			<string>{497, 410}</string>
+		</dict>
+		<key>Art Assets/goback.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 3729}, {242, 252}}</string>
+			<key>offset</key>
+			<string>{0, 3}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{14, 10}, {242, 252}}</string>
+			<key>sourceSize</key>
+			<string>{270, 279}</string>
+		</dict>
+		<key>Art Assets/object_lollies_19688bf2053006d522417e4a062036edc4984590@4x.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{3813, 1280}, {200, 256}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{28, 0}, {200, 256}}</string>
+			<key>sourceSize</key>
+			<string>{256, 256}</string>
+		</dict>
+		<key>Art Assets/paused.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{821, 2733}, {689, 174}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {689, 174}}</string>
+			<key>sourceSize</key>
+			<string>{689, 174}</string>
+		</dict>
+		<key>Art Assets/restart.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{3975, 284}, {95, 98}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {95, 98}}</string>
+			<key>sourceSize</key>
+			<string>{95, 98}</string>
+		</dict>
+		<key>Art Assets/restart2.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1923, 2123}, {304, 314}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {304, 314}}</string>
+			<key>sourceSize</key>
+			<string>{304, 314}</string>
+		</dict>
+		<key>Art Assets/restartBIG.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1325, 2565}, {380, 392}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {380, 392}}</string>
+			<key>sourceSize</key>
+			<string>{380, 392}</string>
+		</dict>
+		<key>Art Assets/starhoardertitleBIG.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2275, 1}, {1698, 230}}</string>
+			<key>offset</key>
+			<string>{0, 1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {1698, 230}}</string>
+			<key>sourceSize</key>
+			<string>{1698, 232}</string>
+		</dict>
+		<key>Art Assets/startbutton.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{3975, 1}, {281, 113}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {281, 113}}</string>
+			<key>sourceSize</key>
+			<string>{281, 113}</string>
+		</dict>
+		<key>Art Assets/startbuttonBIG.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1923, 1283}, {838, 334}}</string>
+			<key>offset</key>
+			<string>{3, -3}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{5, 5}, {838, 334}}</string>
+			<key>sourceSize</key>
+			<string>{843, 339}</string>
+		</dict>
+		<key>Art Assets/tilt big.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{3813, 233}, {641, 160}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 1}, {641, 160}}</string>
+			<key>sourceSize</key>
+			<string>{641, 162}</string>
+		</dict>
+		<key>Art Assets/vectorstar4x.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1923, 2429}, {302, 313}}</string>
+			<key>offset</key>
+			<string>{0, 0}</string>
+			<key>rotated</key>
+			<true/>
+			<key>sourceColorRect</key>
+			<string>{{0, 0}, {302, 313}}</string>
+			<key>sourceSize</key>
+			<string>{302, 313}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>size</key>
+		<string>{4096, 4096}</string>
+		<key>textureFileName</key>
+		<string>Art Assets.png</string>
+	</dict>
+</dict>
+</plist>

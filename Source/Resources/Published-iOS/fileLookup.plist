@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>filenames</key>
+	<dict>
+		<key>gamesounds/AvatarDeath.wav</key>
+		<string>gamesounds/AvatarDeath.caf</string>
+		<key>gamesounds/AvatarSpawn.wav</key>
+		<string>gamesounds/AvatarSpawn.caf</string>
+		<key>gamesounds/EnemyKill.wav</key>
+		<string>gamesounds/EnemyKill.caf</string>
+		<key>gamesounds/GameOver.wav</key>
+		<string>gamesounds/GameOver.caf</string>
+		<key>gamesounds/GreenSpawn.wav</key>
+		<string>gamesounds/GreenSpawn.caf</string>
+		<key>gamesounds/PinkSpawn.wav</key>
+		<string>gamesounds/PinkSpawn.caf</string>
+		<key>gamesounds/RedSpawn.wav</key>
+		<string>gamesounds/RedSpawn.caf</string>
+		<key>gamesounds/StarGet.wav</key>
+		<string>gamesounds/StarGet.caf</string>
+		<key>gamesounds/StarMiss.wav</key>
+		<string>gamesounds/StarMiss.caf</string>
+		<key>gamesounds/StrawberrySpawn.wav</key>
+		<string>gamesounds/StrawberrySpawn.caf</string>
+		<key>gamesounds/YellowPower.wav</key>
+		<string>gamesounds/YellowPower.caf</string>
+		<key>gamesounds/space ambient.wav</key>
+		<string>gamesounds/space ambient.m4a</string>
+		<key>gamesounds/theme2.wav</key>
+		<string>gamesounds/theme2.m4a</string>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>version</key>
+		<integer>1</integer>
+	</dict>
+</dict>
+</plist>
