@@ -185,10 +185,6 @@
         newXPosition = clampf(newXPosition, 0, self.boundingBox.size.width);
         newYPosition = clampf(newYPosition, 0, self.boundingBox.size.height);
         
-        //        float angleOfDifference = ccpAngle(ccp(sinf(CC_DEGREES_TO_RADIANS( _character.rotation)), cosf(CC_DEGREES_TO_RADIANS( _character.rotation))), ccpSub(ccp(newXPosition, newYPosition), _character.position)); // in radians
-        //
-        //        float angleOfDifferenceInDeg = CC_RADIANS_TO_DEGREES(angleOfDifference);
-        
         //define rotation variables
         float angleOfMovement = ccpAngle(ccp(0, 1), ccpSub(ccp(newXPosition, newYPosition), _character.position)); // in radians
         float angleOfMovementInDeg = CC_RADIANS_TO_DEGREES(angleOfMovement);
@@ -212,33 +208,7 @@
             _character.rotation = angleOfMovementInDeg;
         }
         
-        //        if (_character.position.x - newXPosition == 0 && _character.position.y - newYPosition == 0) {
-        //            angleOfMovementInDeg =0;
-        //        }
-        //        if (_character.position.x - newXPosition > 0) {
-        //            angleOfMovementInDeg = -angleOfMovementInDeg;
-        //        }
-        //
-        //        [rotationArray addObject: [NSNumber numberWithFloat: angleOfMovementInDeg+180.0]];
-        //        if (rotationArray.count >10) {
-        //            [rotationArray removeObjectAtIndex:0];
-        //        }
-        //        float average = 0.0;
-        //
-        //        for (NSNumber *rotation in rotationArray) {
-        //            average += [rotation floatValue];
-        //        }
-        //        average = average / (float)rotationArray.count;
         BOOL isMovingClockwiseNew = (_character.rotation - angleOfMovementInDeg) > 0;
-        
-        //
-        //        float currentDirection = _character.rotation;
-        //        while (currentDirection > 180) {
-        //            currentDirection = currentDirection - 360;
-        //        }
-        //        while (currentDirection < -180) {
-        //            currentDirection = currentDirection + 360;
-        //        }
         
         //record last position in order to calculate appropriate rotation
         float lastX =_character.position.x;
@@ -255,7 +225,6 @@
         float squareDistance = ((diffx*diffx) + (diffy*diffy));
         if(squareDistance >= deadZone)
         {
-            //            _character.rotation = average-180;
             
             if (isMovingClockwiseNew == isMovingClockwise && isMovingClockwise==isMovingClockwiseOld) {
                 
@@ -263,18 +232,6 @@
             isMovingClockwiseOld = isMovingClockwise;
             
             isMovingClockwise = isMovingClockwiseNew;
-            //            _character.rotation = fmodf(fabsf(_character.rotation - angleOfMovementInDeg), 180);
-            //            float desiredAngle = atan2(diffy, diffx);
-            //            float currentAngle = CC_DEGREES_TO_RADIANS(_character.rotation);
-            //
-            //            //   float currentAngle = CC_DEGREES_TO_RADIANS(angleOfMovementInDeg/2);
-            //
-            //            const float blendFactor = .35f;
-            //
-            //            // spherically interpolate the rotational movement to smoothen turning of the avatar
-            //            float rotationInRad = [self Slerp2DfromRadian:currentAngle toRadian:desiredAngle withBlendFactor:blendFactor];
-            //            float rotationInDeg = CC_RADIANS_TO_DEGREES(rotationInRad);
-            //            _character.rotation = rotationInDeg;
         }
         
         // decreases the time remaining every update cycle
@@ -326,23 +283,8 @@
         float gameTimeInSec = gameTime/60;
         _gameTimeLabel.string = [NSString stringWithFormat:@"%.0f", fabsf(ceil(gameTimeInSec))];
         
-        //        if ((gameTimeInSec <= 120)){
-        //
-        //            if ((fmodf(gameTimeInSec,30)) == 0){
-        //                MAX_ENEMIES = MAX_ENEMIES + 1;
-        //            }
-        //            if ((fmodf(gameTimeInSec,10)) == 0){
-        //                enemySpeed = enemySpeed + 4;
-        //            }
-        //        }
     }
 }
-
-// change color
-// [[_character animationManager] runAnimation:@"AnimationName"];
-// set variable tracking color to new color
-
-// in collision handler, check if color matches character color
 
 #pragma mark - Collision with Star
 
@@ -357,16 +299,6 @@
     //updates the score
     score++;
     _scoreLabel.string = [NSString stringWithFormat:@"%d", score];
-    
-//    //shows score achievements
-//    if (score == 20) {
-//        [MGWU showMessage:@"Twenty Stars" withImage:@"object_vector-stars-4x.png"];
-//        [achievementArray addObject:@"Ten Stars UNLOCKED"];
-//    }
-//    else if (score == 100){
-//        [MGWU showMessage:@"100 STARS HOARDED" withImage:@"object_vector-stars-4x.png"];
-//        [achievementArray addObject:@"30 STARS HOARDED UNLOCKED"];
-//    }
     
     //increase time
     time = time + (starLife - collidedStar.lifetime) + 3;
@@ -452,9 +384,6 @@
     //increase combo count
     comboCount++;
     _comboCountLabel.string = [NSString stringWithFormat:@"%d", comboCount];
-    //    if (comboCount >= 5){
-    //        // [self addAvatar];
-    //    }
     
     //gain 1 crush ammo for every 3 star combo
     if ((comboCount % 5 == 0) && (comboCount != 0)){
@@ -551,32 +480,6 @@
     
 }
 
-//-(void) addAvatar {
-//    //remove old avatar
-//    [self avatarRemoved:_character];
-//    
-//    //record old position
-//    CGPoint oldPosition = _character.position;
-//    
-//    if (comboCount < 5) {
-//        speedMultiplier = 1500;
-//    }
-//    else if (comboCount <= 5 && comboCount < 10) {
-//        speedMultiplier = 1700;
-//    }
-//    else{
-//        speedMultiplier = 1900;
-//    }
-//    
-//    // spawn character on old position
-//    _character.position = oldPosition;
-//    
-//    // add new avatar to the physics world
-//    [_physicsNode addChild:_character];
-//}
-
-
-
 -(void) addStar {
     
     if (starArray.count < MAX_STARS) {
@@ -621,12 +524,7 @@
         [_physicsNode addChild:_currentStar];
         
         //set star's lifetime to 0
-        _currentStar.lifetime = 0;
-        
-        //        //schedules addEnemy.
-        //        float randomDelay = floorf(((double)arc4random() / ARC4RANDOM_MAX) * 1.0f);
-        //        [self scheduleOnce:@selector(addEnemy) delay:randomDelay];
-        
+        _currentStar.lifetime = 0;        
         _currentStar.zOrder = 10;
     }
 }
